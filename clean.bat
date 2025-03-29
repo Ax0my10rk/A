@@ -1,5 +1,7 @@
-schtasks /delete /tn "Bob" /f
 schtasks /delete /tn "ArmorKing" /f
+schtasks /delete /tn "Bob" /f
+schtasks /delete /tn "immagina" /f
+schtasks /delete /tn "puoi" /f
 rmdir /s /q "C:\Users\%USERNAME%\Project"
 del /f /q "C:\Windows\SysWOW64\libcrypto-3.dll"
 del /f /q "C:\Windows\SysWOW64\libssl-3.dll"
